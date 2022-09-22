@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/role_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="6dp"
+        android:text="Role:"/>
+
+    <TextView
+        android:id="@+id/role_get_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/role_tv"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="6dp"
+        android:text="Admin"/>
+
+    <TextView
+        android:id="@+id/name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Name:"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="@id/role_tv"
+        app:layout_constraintTop_toBottomOf="@id/role_tv"/>
+
+    <TextView
+        android:id="@+id/name_get_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Daniel"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="@id/role_get_tv"
+        app:layout_constraintTop_toBottomOf="@id/role_get_tv"/>
+
+    <TextView
+        android:id="@+id/last_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Last Name:"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="@id/name_tv"
+        app:layout_constraintTop_toBottomOf="@id/name_tv"/>
+
+    <TextView
+        android:id="@+id/last_name_get_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Kyrgyzbaev"
+        android:layout_marginTop="6dp"
+        app:layout_constraintLeft_toLeftOf="@id/name_get_tv"
+        app:layout_constraintTop_toBottomOf="@id/name_get_tv"/>
+
+    <TextView
+        android:id="@+id/age_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Age:"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/last_name_tv"
+        app:layout_constraintTop_toBottomOf="@id/last_name_tv"/>
+
+    <TextView
+        android:id="@+id/age_get_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="23"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/last_name_get_tv"
+        app:layout_constraintTop_toBottomOf="@id/last_name_get_tv"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
