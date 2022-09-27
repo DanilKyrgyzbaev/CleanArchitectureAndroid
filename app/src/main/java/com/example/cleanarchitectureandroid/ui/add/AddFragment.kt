@@ -12,9 +12,9 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.cleanarchitectureandroid.App
+import com.example.cleanarchitectureandroid.base.InventoryViewModelFactory
 import com.example.cleanarchitectureandroid.databinding.FragmentAddBinding
 import com.example.cleanarchitectureandroid.model.User
-import org.w3c.dom.Text
 
 class AddFragment : Fragment() {
 

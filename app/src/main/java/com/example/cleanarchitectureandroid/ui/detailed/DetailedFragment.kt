@@ -1,6 +1,5 @@
 package com.example.cleanarchitectureandroid.ui.detailed
 
-import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -11,11 +10,10 @@ import androidx.navigation.fragment.findNavController
 import androidx.navigation.fragment.navArgs
 import com.example.cleanarchitectureandroid.App
 import com.example.cleanarchitectureandroid.R
-import com.example.cleanarchitectureandroid.databinding.FragmentAddBinding
+import com.example.cleanarchitectureandroid.base.InventoryViewModelFactory
 import com.example.cleanarchitectureandroid.databinding.FragmentDeteilBinding
 import com.example.cleanarchitectureandroid.model.User
 import com.example.cleanarchitectureandroid.ui.add.AddViewModel
-import com.example.cleanarchitectureandroid.ui.add.InventoryViewModelFactory
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
 class DetailedFragment : Fragment() {

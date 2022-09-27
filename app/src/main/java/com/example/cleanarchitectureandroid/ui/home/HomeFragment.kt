@@ -10,9 +10,9 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cleanarchitectureandroid.App
 import com.example.cleanarchitectureandroid.R
+import com.example.cleanarchitectureandroid.base.InventoryViewModelFactory
 import com.example.cleanarchitectureandroid.databinding.FragmentHomeBinding
 import com.example.cleanarchitectureandroid.ui.add.AddViewModel
-import com.example.cleanarchitectureandroid.ui.add.InventoryViewModelFactory
 import com.example.cleanarchitectureandroid.ui.home.adapter.ItemAdapter
 
 class HomeFragment : Fragment() {

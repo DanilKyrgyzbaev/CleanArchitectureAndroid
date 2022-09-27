@@ -85,13 +85,3 @@ class AddViewModel(private val roomDao: RoomDao) : ViewModel() {
         )
     }
 }
-
-class InventoryViewModelFactory(private val itemDao: RoomDao) : ViewModelProvider.Factory {
-    override fun <T : ViewModel> create(modelClass: Class<T>): T {
-        if (modelClass.isAssignableFrom(AddViewModel::class.java)) {
-            @Suppress("UNCHECKED_CAST")
-            return AddViewModel(itemDao) as T
-        }
-        throw IllegalArgumentException("Unknown ViewModel class")
-    }
-}
